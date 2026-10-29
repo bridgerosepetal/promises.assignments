@@ -2,14 +2,8 @@
 
 :root {
   font-family: "Tektur Variable", sans-serif;
-  color-scheme: light dark;
-  background-color: #ffffff;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    background-color: #16171d;
-  }
+  color-scheme: dark;
+  background-color: #16171d;
 }
 
 body {
