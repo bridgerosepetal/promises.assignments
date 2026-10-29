@@ -1,0 +1,17 @@
+.simple-promise {
+  border-radius: 8px 0;
+  corner-shape: bevel;
+  border: 1px red solid;
+  overflow: hidden;
+  padding: 2px;
+  background-color: #0f0607;
+  &__message {
+    padding: 8px;
+    border: 1px red solid;
+  }
+  &__footer {
+    padding: 8px;
+    border-inline: 1px red solid;
+    border-bottom: 1px red solid;
+  }
+}

@@ -1,0 +1,38 @@
+.my-element {
+  &__description {
+    color: #d1c0ac;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  hr {
+    border: none;
+    margin: 24px 0;
+    height: 8px;
+    overflow: visible;
+    position: relative;
+    background: linear-gradient(#05eaee, #05eaee) center / 100% 1px no-repeat;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0 40%;
+      background: #05eaee;
+      border-radius: 0 0 6px 6px;
+      corner-shape: bevel;
+    }
+  }
+
+  &__3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}

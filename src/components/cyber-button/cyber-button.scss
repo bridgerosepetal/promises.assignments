@@ -1,0 +1,28 @@
+:host {
+  display: inline-block;
+}
+
+:host([disabled]) {
+  pointer-events: none;
+}
+
+.cyber-button {
+  font: inherit;
+  border: 1px #4cb8ad solid;
+  background-color: #3f3f68;
+  padding: 8px 14px;
+  color: #f4caad;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 4px #965159;
+  border-radius: 8px 0;
+  corner-shape: bevel;
+
+  &:active {
+    background-color: #0f0607;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}

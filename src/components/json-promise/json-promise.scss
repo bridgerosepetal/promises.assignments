@@ -1,0 +1,21 @@
+.json-promise {
+  border: 2px solid black;
+  corner-shape: bevel;
+  border-radius: 16px 0;
+  overflow: hidden;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  &__status {
+    background-color: black;
+    color: #d3cf06;
+    padding: 12px;
+    text-align: center;
+  }
+  &__footer {
+    padding: 12px;
+    background-color: #d3cf06;
+    border-top: 2px solid black;
+    text-align: center;
+  }
+}
